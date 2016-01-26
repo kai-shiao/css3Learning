@@ -1,0 +1,23 @@
+body{
+	background-color: rgb(190,190,190);
+}
+
+div{
+	background-color: rgb(255,255,255);
+	height: 100px;
+	width: 150px;
+}
+
+p{
+	background-color: rgb(199,0,37);
+	border-radius: 50%;
+	height: 50px;
+	left: 55px;
+	position: absolute;
+	top: 16px;
+	width: 50px;
+}
+
+a{
+	color: rgb(0,0,0);
+}
