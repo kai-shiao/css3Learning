@@ -1,0 +1,38 @@
+*{
+	list-style-type: none;
+	font-weight: bold;
+}
+
+nav{
+	cursor: pointer;
+}
+
+nav>ul>li{
+	float: left;
+	background-color: blue;
+	line-height: 150%;
+	padding: 5px;
+}
+
+nav>ul>li>ul{
+	margin-left: -40px;
+	margin-right: 0px;
+}
+
+nav>ul>li>ul>li{
+	display: none;
+}
+
+nav>ul>li:hover>ul>li{
+	background-color: blue;
+	padding: 3px;
+	display: block;
+}
+
+
+nav>ul>li:hover>ul>li:hover{
+	background-color: blue;
+	color: yellow;
+	padding: 3px;
+	display: block;
+}
