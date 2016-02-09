@@ -9,3 +9,5 @@
 	<li>CSS Sudanese Flag</li>
 	<li>Drop Down Menu</li>
 </ol>
+
+<footer>&copy; 2016. Kai Shiao. All rights reserved.</footer>
