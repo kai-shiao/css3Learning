@@ -4,20 +4,26 @@ body{
 
 div{
 	background-color: rgb(255,255,255);
-	height: 100px;
-	width: 150px;
+	height: 200px;
+	left: 400px;
+	margin-bottom: 20px;
+	position: absolute;
+	top: 60px;
+	width: 300px;
 }
 
 p{
 	background-color: rgb(199,0,37);
 	border-radius: 50%;
-	height: 50px;
-	left: 55px;
+	height: 100px;
+	left: 100px;
 	position: absolute;
-	top: 16px;
-	width: 50px;
+	top: 30px;
+	width: 100px;
 }
 
 a{
 	color: rgb(0,0,0);
+	position: relative;
+	left: 200px;
 }
