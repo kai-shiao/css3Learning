@@ -9,6 +9,8 @@
 	<li>Sudanese Flag</li>
 	<li>Drop Down Menu</li>
 	<li>Gingerbread Snowman</li>
+	<li>Front View of Pyramid</li>
+	<li>Parallelogram</li>
 </ul>
 
 <footer>&copy; 2016. Kai Shiao. All rights reserved.</footer>
