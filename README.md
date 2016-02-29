@@ -1,13 +1,14 @@
 <h1>cssLearning</h1>
-<p>This contains the result of my explorations of CSS's powerful features</p>
+<p>This contains the result of my explorations of CSS3's powerful features.</p>
 
 <h2>CONTENTS</h2>
-<ol>
-	<li>CSS Circle</li>
-	<li>CSS Triangle</li>
-	<li>CSS Japanese Flag</li>
-	<li>CSS Sudanese Flag</li>
+<ul>
+	<li>Circle</li>
+	<li>Triangle</li>
+	<li>Japanese Flag</li>
+	<li>Sudanese Flag</li>
 	<li>Drop Down Menu</li>
-</ol>
+	<li>Gingerbread Snowman</li>
+</ul>
 
 <footer>&copy; 2016. Kai Shiao. All rights reserved.</footer>
