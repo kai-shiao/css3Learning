@@ -1,0 +1,31 @@
+p{
+	border-bottom: 55px solid #2f2f2f; /*border-bottom needs to be set to a color */
+	border-left: 55px solid transparent;  
+	border-right: 55px solid transparent;
+	height: 0;
+	left: 50px;
+	position: absolute;
+	top: 60px;
+	width: 0; 	
+}
+
+p:before{ /*Provide text description and instructions without using another HTML element.*/
+	content: 'Front view of a pyramid; in order to view this parallelogram\, select the stylesheet called \'parallelogram\'; in order to view the pyramid, change the stylesheet to \'pyramid\'.';
+	top: -50px;
+	position: absolute;
+	width: 650px;
+}
+
+p:after{ /*Create another triangle, rotate it, & join it to give an illusion of a pyramid.*/
+	border-bottom: 50px solid blue; /*border-bottom needs to be set to a color */
+	border-left: 1px solid transparent;  
+	border-right: 60px solid transparent;
+	content: '';
+	display: inline-block;
+	height: 0; 
+	left: -3px;
+	position: relative;
+	top: 3px;
+	transform: rotate(-175deg);
+	width: 0; 		
+}

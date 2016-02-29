@@ -1,0 +1,31 @@
+p{
+	border-bottom: 50px solid #2f2f2f; 
+	border-left: 50px solid transparent;  
+	border-right: 50px solid transparent;
+	height: 0; 
+	left: 100px;
+	position: absolute;
+	top: 60px;
+	width: 0; 	
+}
+
+p:before{ /*Provide text description and instructions without using another HTML element.*/
+	content: 'Parallelogram; In order to view the pyramid, change the stylesheet to \'pyramid\'; in order to view this parallelogram\, select the stylesheet called \'parallelogram\'.';
+	top: -50px;
+	position: absolute;
+	width: 650px;
+}
+
+p:after{ 
+	border-bottom: 50px solid #2f2f2f; 
+	border-left: 50px solid transparent;  
+	border-right: 50px solid transparent;
+	content: '';
+	display: inline-block;
+	height: 0; 
+	left: -1px;
+	position: relative;
+	top: 0px;
+	transform: rotate(-180deg);
+	width: 0; 		
+}
