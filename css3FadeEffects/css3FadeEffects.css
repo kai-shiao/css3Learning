@@ -1,0 +1,77 @@
+p:first-of-type{
+	cursor: pointer;
+}
+
+.display{
+	opacity: 1;
+}
+
+p:nth-of-type(2){
+	margin-top: 10px;
+}
+
+@-webkit-keyframes fadeIntoView{
+	0% {
+		opacity: 0;
+	} 
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIntoView{
+	0% {
+		opacity: 0;
+	} 
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIntoView{
+	0% {
+		opacity: 0;
+	} 
+	100% {
+		opacity: 1;
+	}
+}
+
+.fadeIntoView{
+	-webkit-animation: fadeIntoView 3s infinite;
+	-moz-animation: fadeIntoView 3s infinite;
+	animation: fadeIntoView 3s infinite;
+}
+
+@-webkit-keyframes fadeFromView{
+	from {
+		opacity: 1;
+	} 
+	to {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes fadeFromView{
+	from {
+		opacity: 1;
+	} 
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeFromView{
+	from {
+		opacity: 1;
+	} 
+	to {
+		opacity: 0;
+	}
+}
+
+.fadeFromView{
+	-webkit-animation: fadeFromView 3s infinite;
+	-moz-animation: fadeFromView 3s infinite;
+	animation: fadeFromView 3s infinite;
+}

@@ -1,4 +1,4 @@
-<h1>cssLearning</h1>
+<h1>css3Learning</h1>
 <p>This contains the result of my explorations of CSS3's powerful features.</p>
 
 <h2>CONTENTS</h2>
@@ -11,6 +11,7 @@
 	<li>Gingerbread Snowman</li>
 	<li>Front View of Pyramid</li>
 	<li>Parallelogram</li>
+	<li>CSS3 Animations: Replacing jQuery's Fade In & Fade Out Effects</li>
 </ul>
 
 <footer>&copy; 2016. Kai Shiao. All rights reserved.</footer>
