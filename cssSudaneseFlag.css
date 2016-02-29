@@ -1,21 +1,23 @@
 div:first-child{
-	border-top: 60px solid transparent;
 	border-left: 60px solid rgb(0,135,81);
 	border-bottom: 60px solid transparent;
+	border-top: 60px solid transparent;
 	height: 0;
 	position: absolute;
 	width: 0;
 }
 
+div:last-child,p{
+	width: 240px;
+}
+
 div:last-child{
 	height: 120px;
-	width: 240px;
 }
 
 p{
 	height: 40px;
 	margin: 0;
-	width: 240px;
 }
 
 p:first-child{
