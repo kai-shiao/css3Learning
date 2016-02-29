@@ -1,7 +1,7 @@
 p{
-	width: 0; 
-	height: 0; 
-	border-left: 10px solid transparent;  
-	border-right: 10px solid transparent; 
 	border-bottom: 10px solid #2f2f2f; /*border-bottom needs to be set to a color */
+	border-left: 10px solid transparent;  
+	border-right: 10px solid transparent;
+	height: 0; 
+	width: 0; 	
 }
