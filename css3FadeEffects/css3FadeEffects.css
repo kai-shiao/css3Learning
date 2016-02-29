@@ -1,12 +1,8 @@
-p:first-of-type{
+button{
 	cursor: pointer;
 }
 
-.display{
-	opacity: 1;
-}
-
-p:nth-of-type(2){
+p:first-of-type{
 	margin-top: 10px;
 }
 
