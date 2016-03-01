@@ -22,11 +22,15 @@ div:first-child, div:nth-child(2){  /*Create semicircles*/
 
 div:first-child{
 	left: 55px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
 	transform: rotate(-90deg);
 } 
 
 div:nth-child(2){
 	left: 105px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
 
