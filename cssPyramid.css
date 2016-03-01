@@ -21,7 +21,7 @@ p:after{ /*Create another triangle, rotate it, & join it to give an illusion of 
 	border-left: 1px solid transparent;  
 	border-right: 60px solid transparent;
 	content: '';
-	display: inline-block;
+	display: inline-block; /*You cannot rotate inline elements; only block or inline-block elements can be rotated.*/
 	height: 0; 
 	left: -3px;
 	position: relative;
