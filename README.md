@@ -12,6 +12,7 @@
 	<li>Front View of Pyramid</li>
 	<li>Parallelogram</li>
 	<li>CSS3 Animations: Replacing jQuery's Fade In & Fade Out Effects</li>
+	<li>Interactive pseudo-button</li>
 </ul>
 
 <footer>&copy; 2016. Kai Shiao. All rights reserved.</footer>
