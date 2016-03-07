@@ -7,6 +7,10 @@ elements will respond to transformations when it is in its active state.
 3. The drawback from not using a <button> element is that the web user must click on any are that is overlapped by both the <div> and the <a> element
 for this interactive button's effect to be seen. Otherwise, the HTML hyperlink element will not perform its job (i.e. bring to the destined website/web page)
 */
+h1{
+	font-size: 120%;
+}
+
 div{
     background-color: yellow;
 	border: 3px solid rgb(0,0,0);
