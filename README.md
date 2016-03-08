@@ -5,6 +5,7 @@
 <ul>
 	<li>Circle</li>
 	<li>Triangle</li>
+	<li>Beninese Flag</li>
 	<li>Japanese Flag</li>
 	<li>Sudanese Flag</li>
 	<li>Drop Down Menu</li>
